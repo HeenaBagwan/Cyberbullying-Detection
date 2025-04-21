@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto:wght@500&family=Ubuntu:wght@300;400;500;700&family=Ysabeau+SC:wght@1..1000&display=swap');
+body {
+    font-family: "Roboto", serif;
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    color: white;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 60px 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Electrolize", sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+
+textarea {
+    font-family: "Roboto", serif;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e84118;
+}
+
+#loading {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fffa65;
+}
+
+#result {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+.result-bullying {
+    background: #ff4757;
+    color: white;
+}
+
+.result-neutral {
+    background: #0aea0a;
+    color: white;
+}
+
+
+.hidden {
+    display: none;
+}
